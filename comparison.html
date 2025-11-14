@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png"
+      type="image/png"
+    />
+    <title>Price Comparison Results - PriceCompare AI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="fas fa-chart-line me-2"></i>PriceCompare AI
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="comparison.html">Compare</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <section class="search-bar-section py-4 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="input-group input-group-lg">
+              <input
+                type="text"
+                class="form-control"
+                id="searchInput"
+                placeholder="Search for products..."
+              />
+              <button class="btn btn-primary" type="button" id="searchBtn">
+                <i class="fas fa-search me-2"></i>Search
+              </button>
+            </div>
+            <div class="category-pills mt-3">
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="all"
+              >
+                All
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Smartphones"
+              >
+                Smartphones
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Laptops"
+              >
+                Laptops
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Audio"
+              >
+                Audio
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Cameras"
+              >
+                Cameras
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Gaming"
+              >
+                Gaming
+              </button>
+              <button
+                class="btn btn-outline-primary btn-sm category-btn"
+                data-category="Wearables"
+              >
+                Wearables
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section py-5">
+      <div class="container">
+        <!-- Search Info -->
+        <div id="searchInfo" class="mb-4" style="display: none">
+          <h4>Search Results for "<span id="searchTerm"></span>"</h4>
+          <p class="text-muted">
+            <span id="resultCount">0</span> products found
+          </p>
+        </div>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="text-center py-5" style="display: none">
+          <i class="fas fa-search fa-4x text-muted mb-3"></i>
+          <h4>No products found</h4>
+          <p class="text-muted">
+            Try searching with different keywords or browse by category
+          </p>
+        </div>
+
+        <!-- Results Container -->
+        <div id="resultsContainer" class="row g-4">
+          <!-- Products will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Recommendations Section -->
+    <section
+      class="recommendations-section py-5 bg-light"
+      id="recommendationsSection"
+      style="display: none"
+    >
+      <div class="container">
+        <div class="d-flex align-items-center mb-4">
+          <i class="fas fa-robot fa-2x text-primary me-3"></i>
+          <div>
+            <h4 class="mb-0">AI Recommendations</h4>
+            <p class="text-muted mb-0">Similar products you might like</p>
+          </div>
+        </div>
+        <div id="recommendationsContainer" class="row g-4">
+          <!-- Recommendations will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5><i class="fas fa-chart-line me-2"></i>PriceCompare AI</h5>
+            <p class="text-muted">
+              Your intelligent shopping companion for finding the best deals
+              online.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-muted text-decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="comparison.html"
+                  class="text-muted text-decoration-none"
+                  >Compare</a
+                >
+              </li>
+              <li>
+                <a
+                  href="index.html#about"
+                  class="text-muted text-decoration-none"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6>Connect</h6>
+            <div class="social-links">
+              <a href="#" class="text-muted me-3"
+                ><i class="fab fa-facebook fa-lg"></i
+              ></a>
+              <a href="#" class="text-muted me-3"
+                ><i class="fab fa-twitter fa-lg"></i
+              ></a>
+              <a href="#" class="text-muted me-3"
+                ><i class="fab fa-instagram fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="bg-secondary" />
+        <div class="text-center text-muted">
+          <p class="mb-0">&copy; 2024 PriceCompare AI. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

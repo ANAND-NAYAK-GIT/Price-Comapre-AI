@@ -1,0 +1,5422 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23 Ultra",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 89999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+S23"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23 Ultra",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 87999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+S23"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy S23 Ultra",
+      "category": "Smartphones",
+      "vendor": "Meesho",
+      "price": 91999,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+S23"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 15 Pro Max",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 159900,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+15"
+    },
+    {
+      "id": 5,
+      "name": "iPhone 15 Pro Max",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 157900,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+15"
+    },
+    {
+      "id": 6,
+      "name": "OnePlus 12",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 64999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+12"
+    },
+    {
+      "id": 7,
+      "name": "OnePlus 12",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 63999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+12"
+    },
+    {
+      "id": 8,
+      "name": "OnePlus 12",
+      "category": "Smartphones",
+      "vendor": "Meesho",
+      "price": 66999,
+      "rating": 4.2,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+12"
+    },
+    {
+      "id": 9,
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 29990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Sony+XM5"
+    },
+    {
+      "id": 10,
+      "name": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 28990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Sony+XM5"
+    },
+    {
+      "id": 11,
+      "name": "Apple AirPods Pro 2",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 26900,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=AirPods+Pro"
+    },
+    {
+      "id": 12,
+      "name": "Apple AirPods Pro 2",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 25900,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=AirPods+Pro"
+    },
+    {
+      "id": 13,
+      "name": "Apple AirPods Pro 2",
+      "category": "Audio",
+      "vendor": "Meesho",
+      "price": 27900,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=AirPods+Pro"
+    },
+    {
+      "id": 14,
+      "name": "JBL Flip 6 Bluetooth Speaker",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 11999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Flip+6"
+    },
+    {
+      "id": 15,
+      "name": "JBL Flip 6 Bluetooth Speaker",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 11499,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Flip+6"
+    },
+    {
+      "id": 16,
+      "name": "Dell XPS 15 Laptop",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 189990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Dell+XPS+15"
+    },
+    {
+      "id": 17,
+      "name": "Dell XPS 15 Laptop",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 187990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Dell+XPS+15"
+    },
+    {
+      "id": 18,
+      "name": "MacBook Pro 14 M3",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 199900,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro"
+    },
+    {
+      "id": 19,
+      "name": "MacBook Pro 14 M3",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 197900,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro"
+    },
+    {
+      "id": 20,
+      "name": "HP Pavilion Gaming Laptop",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 74990,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 21,
+      "name": "HP Pavilion Gaming Laptop",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 72990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 22,
+      "name": "HP Pavilion Gaming Laptop",
+      "category": "Laptops",
+      "vendor": "Meesho",
+      "price": 76990,
+      "rating": 4.2,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 23,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 149990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=ThinkPad+X1"
+    },
+    {
+      "id": 24,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 147990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=ThinkPad+X1"
+    },
+    {
+      "id": 25,
+      "name": "Samsung 55 4K Smart TV",
+      "category": "Electronics",
+      "vendor": "Amazon",
+      "price": 54990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+TV"
+    },
+    {
+      "id": 26,
+      "name": "Samsung 55 4K Smart TV",
+      "category": "Electronics",
+      "vendor": "Flipkart",
+      "price": 52990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+TV"
+    },
+    {
+      "id": 27,
+      "name": "Samsung 55 4K Smart TV",
+      "category": "Electronics",
+      "vendor": "Meesho",
+      "price": 56990,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+TV"
+    },
+    {
+      "id": 28,
+      "name": "LG OLED 65 TV",
+      "category": "Electronics",
+      "vendor": "Amazon",
+      "price": 189990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED"
+    },
+    {
+      "id": 29,
+      "name": "LG OLED 65 TV",
+      "category": "Electronics",
+      "vendor": "Flipkart",
+      "price": 184990,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED"
+    },
+    {
+      "id": 30,
+      "name": "Sony Bravia 55 4K TV",
+      "category": "Electronics",
+      "vendor": "Amazon",
+      "price": 74990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia"
+    },
+    {
+      "id": 31,
+      "name": "Sony Bravia 55 4K TV",
+      "category": "Electronics",
+      "vendor": "Flipkart",
+      "price": 72990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia"
+    },
+    {
+      "id": 32,
+      "name": "Canon EOS R6 Camera",
+      "category": "Cameras",
+      "vendor": "Amazon",
+      "price": 229990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Canon+R6"
+    },
+    {
+      "id": 33,
+      "name": "Canon EOS R6 Camera",
+      "category": "Cameras",
+      "vendor": "Flipkart",
+      "price": 224990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Canon+R6"
+    },
+    {
+      "id": 34,
+      "name": "Nikon Z6 II Camera",
+      "category": "Cameras",
+      "vendor": "Amazon",
+      "price": 179990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Nikon+Z6"
+    },
+    {
+      "id": 35,
+      "name": "Nikon Z6 II Camera",
+      "category": "Cameras",
+      "vendor": "Flipkart",
+      "price": 174990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Nikon+Z6"
+    },
+    {
+      "id": 36,
+      "name": "Sony Alpha A7 IV Camera",
+      "category": "Cameras",
+      "vendor": "Amazon",
+      "price": 239990,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/200x200?text=Sony+A7+IV"
+    },
+    {
+      "id": 37,
+      "name": "Sony Alpha A7 IV Camera",
+      "category": "Cameras",
+      "vendor": "Flipkart",
+      "price": 234990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Sony+A7+IV"
+    },
+    {
+      "id": 38,
+      "name": "GoPro Hero 12 Black",
+      "category": "Cameras",
+      "vendor": "Amazon",
+      "price": 44990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=GoPro+12"
+    },
+    {
+      "id": 39,
+      "name": "GoPro Hero 12 Black",
+      "category": "Cameras",
+      "vendor": "Flipkart",
+      "price": 43990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=GoPro+12"
+    },
+    {
+      "id": 40,
+      "name": "GoPro Hero 12 Black",
+      "category": "Cameras",
+      "vendor": "Meesho",
+      "price": 46990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=GoPro+12"
+    },
+    {
+      "id": 41,
+      "name": "Apple Watch Series 9",
+      "category": "Wearables",
+      "vendor": "Amazon",
+      "price": 44900,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch"
+    },
+    {
+      "id": 42,
+      "name": "Apple Watch Series 9",
+      "category": "Wearables",
+      "vendor": "Flipkart",
+      "price": 43900,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch"
+    },
+    {
+      "id": 43,
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Wearables",
+      "vendor": "Amazon",
+      "price": 29990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Watch"
+    },
+    {
+      "id": 44,
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Wearables",
+      "vendor": "Flipkart",
+      "price": 28990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Watch"
+    },
+    {
+      "id": 45,
+      "name": "Samsung Galaxy Watch 6",
+      "category": "Wearables",
+      "vendor": "Meesho",
+      "price": 31990,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Watch"
+    },
+    {
+      "id": 46,
+      "name": "Fitbit Charge 6",
+      "category": "Wearables",
+      "vendor": "Amazon",
+      "price": 14999,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+6"
+    },
+    {
+      "id": 47,
+      "name": "Fitbit Charge 6",
+      "category": "Wearables",
+      "vendor": "Flipkart",
+      "price": 14499,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+6"
+    },
+    {
+      "id": 48,
+      "name": "Xiaomi Mi Band 8",
+      "category": "Wearables",
+      "vendor": "Amazon",
+      "price": 3999,
+      "rating": 4.2,
+      "image": "https://via.placeholder.com/200x200?text=Mi+Band+8"
+    },
+    {
+      "id": 49,
+      "name": "Xiaomi Mi Band 8",
+      "category": "Wearables",
+      "vendor": "Flipkart",
+      "price": 3799,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Mi+Band+8"
+    },
+    {
+      "id": 50,
+      "name": "Xiaomi Mi Band 8",
+      "category": "Wearables",
+      "vendor": "Meesho",
+      "price": 4199,
+      "rating": 4.1,
+      "image": "https://via.placeholder.com/200x200?text=Mi+Band+8"
+    },
+    {
+      "id": 51,
+      "name": "iPad Pro 12.9 M2",
+      "category": "Tablets",
+      "vendor": "Amazon",
+      "price": 119900,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=iPad+Pro"
+    },
+    {
+      "id": 52,
+      "name": "iPad Pro 12.9 M2",
+      "category": "Tablets",
+      "vendor": "Flipkart",
+      "price": 117900,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=iPad+Pro"
+    },
+    {
+      "id": 53,
+      "name": "Samsung Galaxy Tab S9",
+      "category": "Tablets",
+      "vendor": "Amazon",
+      "price": 74990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Tab"
+    },
+    {
+      "id": 54,
+      "name": "Samsung Galaxy Tab S9",
+      "category": "Tablets",
+      "vendor": "Flipkart",
+      "price": 72990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Tab"
+    },
+    {
+      "id": 55,
+      "name": "Samsung Galaxy Tab S9",
+      "category": "Tablets",
+      "vendor": "Meesho",
+      "price": 76990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Galaxy+Tab"
+    },
+    {
+      "id": 56,
+      "name": "Microsoft Surface Pro 9",
+      "category": "Tablets",
+      "vendor": "Amazon",
+      "price": 109990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Pro"
+    },
+    {
+      "id": 57,
+      "name": "Microsoft Surface Pro 9",
+      "category": "Tablets",
+      "vendor": "Flipkart",
+      "price": 107990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Pro"
+    },
+    {
+      "id": 58,
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Accessories",
+      "vendor": "Amazon",
+      "price": 9995,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=MX+Master"
+    },
+    {
+      "id": 59,
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Accessories",
+      "vendor": "Flipkart",
+      "price": 9495,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=MX+Master"
+    },
+    {
+      "id": 60,
+      "name": "Logitech MX Master 3S Mouse",
+      "category": "Accessories",
+      "vendor": "Meesho",
+      "price": 10495,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=MX+Master"
+    },
+    {
+      "id": 61,
+      "name": "Keychron K8 Mechanical Keyboard",
+      "category": "Accessories",
+      "vendor": "Amazon",
+      "price": 8999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Keychron+K8"
+    },
+    {
+      "id": 62,
+      "name": "Keychron K8 Mechanical Keyboard",
+      "category": "Accessories",
+      "vendor": "Flipkart",
+      "price": 8499,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Keychron+K8"
+    },
+    {
+      "id": 63,
+      "name": "Anker PowerCore 20000mAh",
+      "category": "Accessories",
+      "vendor": "Amazon",
+      "price": 3999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Anker+Power"
+    },
+    {
+      "id": 64,
+      "name": "Anker PowerCore 20000mAh",
+      "category": "Accessories",
+      "vendor": "Flipkart",
+      "price": 3799,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Anker+Power"
+    },
+    {
+      "id": 65,
+      "name": "Anker PowerCore 20000mAh",
+      "category": "Accessories",
+      "vendor": "Meesho",
+      "price": 4199,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Anker+Power"
+    },
+    {
+      "id": 66,
+      "name": "SanDisk 1TB SSD",
+      "category": "Storage",
+      "vendor": "Amazon",
+      "price": 8999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=SanDisk+SSD"
+    },
+    {
+      "id": 67,
+      "name": "SanDisk 1TB SSD",
+      "category": "Storage",
+      "vendor": "Flipkart",
+      "price": 8499,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=SanDisk+SSD"
+    },
+    {
+      "id": 68,
+      "name": "Western Digital 2TB HDD",
+      "category": "Storage",
+      "vendor": "Amazon",
+      "price": 5999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=WD+HDD"
+    },
+    {
+      "id": 69,
+      "name": "Western Digital 2TB HDD",
+      "category": "Storage",
+      "vendor": "Flipkart",
+      "price": 5799,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=WD+HDD"
+    },
+    {
+      "id": 70,
+      "name": "Western Digital 2TB HDD",
+      "category": "Storage",
+      "vendor": "Meesho",
+      "price": 6199,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=WD+HDD"
+    },
+    {
+      "id": 71,
+      "name": "Samsung 500GB NVMe SSD",
+      "category": "Storage",
+      "vendor": "Amazon",
+      "price": 5499,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+SSD"
+    },
+    {
+      "id": 72,
+      "name": "Samsung 500GB NVMe SSD",
+      "category": "Storage",
+      "vendor": "Flipkart",
+      "price": 5299,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+SSD"
+    },
+    {
+      "id": 73,
+      "name": "PlayStation 5",
+      "category": "Gaming",
+      "vendor": "Amazon",
+      "price": 54990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=PS5"
+    },
+    {
+      "id": 74,
+      "name": "PlayStation 5",
+      "category": "Gaming",
+      "vendor": "Flipkart",
+      "price": 52990,
+      "rating": 4.8,
+      "image": "https://via.placeholder.com/200x200?text=PS5"
+    },
+    {
+      "id": 75,
+      "name": "Xbox Series X",
+      "category": "Gaming",
+      "vendor": "Amazon",
+      "price": 52990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Xbox+X"
+    },
+    {
+      "id": 76,
+      "name": "Xbox Series X",
+      "category": "Gaming",
+      "vendor": "Flipkart",
+      "price": 50990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Xbox+X"
+    },
+    {
+      "id": 77,
+      "name": "Nintendo Switch OLED",
+      "category": "Gaming",
+      "vendor": "Amazon",
+      "price": 34990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Switch+OLED"
+    },
+    {
+      "id": 78,
+      "name": "Nintendo Switch OLED",
+      "category": "Gaming",
+      "vendor": "Flipkart",
+      "price": 33990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Switch+OLED"
+    },
+    {
+      "id": 79,
+      "name": "Nintendo Switch OLED",
+      "category": "Gaming",
+      "vendor": "Meesho",
+      "price": 36990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Switch+OLED"
+    },
+    {
+      "id": 80,
+      "name": "Razer DeathAdder V3 Mouse",
+      "category": "Gaming",
+      "vendor": "Amazon",
+      "price": 6999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Mouse"
+    },
+    {
+      "id": 81,
+      "name": "Razer DeathAdder V3 Mouse",
+      "category": "Gaming",
+      "vendor": "Flipkart",
+      "price": 6499,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Mouse"
+    },
+    {
+      "id": 82,
+      "name": "Bose QuietComfort 45",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 32900,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 83,
+      "name": "Bose QuietComfort 45",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 31900,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 84,
+      "name": "Sennheiser Momentum 4",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 34990,
+      "rating": 4.7,
+      "image": "https://via.placeholder.com/200x200?text=Sennheiser"
+    },
+    {
+      "id": 85,
+      "name": "Sennheiser Momentum 4",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 33990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Sennheiser"
+    },
+    {
+      "id": 86,
+      "name": "Marshall Emberton II Speaker",
+      "category": "Audio",
+      "vendor": "Amazon",
+      "price": 14999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Marshall"
+    },
+    {
+      "id": 87,
+      "name": "Marshall Emberton II Speaker",
+      "category": "Audio",
+      "vendor": "Flipkart",
+      "price": 14499,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Marshall"
+    },
+    {
+      "id": 88,
+      "name": "Marshall Emberton II Speaker",
+      "category": "Audio",
+      "vendor": "Meesho",
+      "price": 15499,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Marshall"
+    },
+    {
+      "id": 89,
+      "name": "Asus ROG Strix G15 Gaming Laptop",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 129990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=ROG+Strix"
+    },
+    {
+      "id": 90,
+      "name": "Asus ROG Strix G15 Gaming Laptop",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 127990,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=ROG+Strix"
+    },
+    {
+      "id": 91,
+      "name": "Acer Predator Helios 300",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 109990,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Predator"
+    },
+    {
+      "id": 92,
+      "name": "Acer Predator Helios 300",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 107990,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Predator"
+    },
+    {
+      "id": 93,
+      "name": "Google Pixel 8 Pro",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 106999,
+      "rating": 4.6,
+      "image": "https://via.placeholder.com/200x200?text=Pixel+8"
+    },
+    {
+      "id": 94,
+      "name": "Google Pixel 8 Pro",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 104999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Pixel+8"
+    },
+    {
+      "id": 95,
+      "name": "Xiaomi 13 Pro",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 79999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Xiaomi+13"
+    },
+    {
+      "id": 96,
+      "name": "Xiaomi 13 Pro",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 77999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Xiaomi+13"
+    },
+    {
+      "id": 97,
+      "name": "Xiaomi 13 Pro",
+      "category": "Smartphones",
+      "vendor": "Meesho",
+      "price": 81999,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Xiaomi+13"
+    },
+    {
+      "id": 98,
+      "name": "Realme GT 3",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 42999,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Realme+GT3"
+    },
+    {
+      "id": 99,
+      "name": "Realme GT 3",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 41999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Realme+GT3"
+    },
+    {
+      "id": 100,
+      "name": "Nothing Phone 2",
+      "category": "Smartphones",
+      "vendor": "Amazon",
+      "price": 44999,
+      "rating": 4.4,
+      "image": "https://via.placeholder.com/200x200?text=Nothing+2"
+    },
+    {
+      "id": 101,
+      "name": "Nothing Phone 2",
+      "category": "Smartphones",
+      "vendor": "Flipkart",
+      "price": 43999,
+      "rating": 4.5,
+      "image": "https://via.placeholder.com/200x200?text=Nothing+2"
+    },
+    {
+      "id": 102,
+      "name": "Nothing Phone 2",
+      "category": "Smartphones",
+      "vendor": "Meesho",
+      "price": 46999,
+      "rating": 4.3,
+      "image": "https://via.placeholder.com/200x200?text=Nothing+2"
+    },
+    {
+      "id": 103,
+      "name": "iPhone 13",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 72747,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+13"
+    },
+    {
+      "id": 104,
+      "name": "iPhone 13",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 78926,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+13"
+    },
+    {
+      "id": 105,
+      "name": "iPhone 13",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 81315,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+13"
+    },
+    {
+      "id": 106,
+      "name": "iPhone 13",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 79186,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+13"
+    },
+    {
+      "id": 107,
+      "name": "iPhone 13",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 79883,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+13"
+    },
+    {
+      "id": 108,
+      "name": "iPhone 14",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 25968,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14"
+    },
+    {
+      "id": 109,
+      "name": "iPhone 14",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 25692,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14"
+    },
+    {
+      "id": 110,
+      "name": "iPhone 14",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 19985,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14"
+    },
+    {
+      "id": 111,
+      "name": "iPhone 14",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 20953,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14"
+    },
+    {
+      "id": 112,
+      "name": "iPhone 14",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 25724,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14"
+    },
+    {
+      "id": 113,
+      "name": "Samsung Galaxy S21",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 53577,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21"
+    },
+    {
+      "id": 114,
+      "name": "Samsung Galaxy S21",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 45974,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21"
+    },
+    {
+      "id": 115,
+      "name": "Samsung Galaxy S21",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 46566,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21"
+    },
+    {
+      "id": 116,
+      "name": "Samsung Galaxy S21",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 51340,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21"
+    },
+    {
+      "id": 117,
+      "name": "Samsung Galaxy S21",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 51471,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21"
+    },
+    {
+      "id": 118,
+      "name": "Samsung Galaxy S22",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 21273,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S22"
+    },
+    {
+      "id": 119,
+      "name": "Samsung Galaxy S22",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 18423,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S22"
+    },
+    {
+      "id": 120,
+      "name": "Samsung Galaxy S22",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 23329,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S22"
+    },
+    {
+      "id": 121,
+      "name": "Samsung Galaxy S22",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 22126,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S22"
+    },
+    {
+      "id": 122,
+      "name": "Samsung Galaxy S22",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 20434,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S22"
+    },
+    {
+      "id": 123,
+      "name": "OnePlus 9",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 13430,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+9"
+    },
+    {
+      "id": 124,
+      "name": "OnePlus 9",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 9740,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+9"
+    },
+    {
+      "id": 125,
+      "name": "OnePlus 9",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 11104,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+9"
+    },
+    {
+      "id": 126,
+      "name": "OnePlus 9",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 7357,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+9"
+    },
+    {
+      "id": 127,
+      "name": "OnePlus 9",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 15306,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+9"
+    },
+    {
+      "id": 128,
+      "name": "OnePlus 10",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 118407,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10"
+    },
+    {
+      "id": 129,
+      "name": "OnePlus 10",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 117317,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10"
+    },
+    {
+      "id": 130,
+      "name": "OnePlus 10",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 120109,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10"
+    },
+    {
+      "id": 131,
+      "name": "OnePlus 10",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 114473,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10"
+    },
+    {
+      "id": 132,
+      "name": "OnePlus 10",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 122031,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10"
+    },
+    {
+      "id": 133,
+      "name": "Redmi Note 11",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 93383,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+11"
+    },
+    {
+      "id": 134,
+      "name": "Redmi Note 11",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 101231,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+11"
+    },
+    {
+      "id": 135,
+      "name": "Redmi Note 11",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 101259,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+11"
+    },
+    {
+      "id": 136,
+      "name": "Redmi Note 11",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 98943,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+11"
+    },
+    {
+      "id": 137,
+      "name": "Redmi Note 11",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 98178,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+11"
+    },
+    {
+      "id": 138,
+      "name": "Redmi Note 12",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 14852,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12"
+    },
+    {
+      "id": 139,
+      "name": "Redmi Note 12",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 14471,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12"
+    },
+    {
+      "id": 140,
+      "name": "Redmi Note 12",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 7945,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12"
+    },
+    {
+      "id": 141,
+      "name": "Redmi Note 12",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 15908,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12"
+    },
+    {
+      "id": 142,
+      "name": "Redmi Note 12",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 16372,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12"
+    },
+    {
+      "id": 143,
+      "name": "Realme Narzo 50",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 41975,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Narzo+50"
+    },
+    {
+      "id": 144,
+      "name": "Realme Narzo 50",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 39303,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Narzo+50"
+    },
+    {
+      "id": 145,
+      "name": "Realme Narzo 50",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 37964,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Narzo+50"
+    },
+    {
+      "id": 146,
+      "name": "Realme Narzo 50",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 39679,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Narzo+50"
+    },
+    {
+      "id": 147,
+      "name": "Realme Narzo 50",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 39820,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Narzo+50"
+    },
+    {
+      "id": 148,
+      "name": "Google Pixel 6",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 120706,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6"
+    },
+    {
+      "id": 149,
+      "name": "Google Pixel 6",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 121414,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6"
+    },
+    {
+      "id": 150,
+      "name": "Google Pixel 6",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 118155,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6"
+    },
+    {
+      "id": 151,
+      "name": "Google Pixel 6",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 119336,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6"
+    },
+    {
+      "id": 152,
+      "name": "Google Pixel 6",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 122600,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6"
+    },
+    {
+      "id": 153,
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 31376,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 154,
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 31679,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 155,
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 35531,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 156,
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 34918,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 157,
+      "name": "HP Pavilion",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 31762,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion"
+    },
+    {
+      "id": 158,
+      "name": "Dell Inspiron",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 61711,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron"
+    },
+    {
+      "id": 159,
+      "name": "Dell Inspiron",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 64442,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron"
+    },
+    {
+      "id": 160,
+      "name": "Dell Inspiron",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 56386,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron"
+    },
+    {
+      "id": 161,
+      "name": "Dell Inspiron",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 63325,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron"
+    },
+    {
+      "id": 162,
+      "name": "Dell Inspiron",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 60804,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron"
+    },
+    {
+      "id": 163,
+      "name": "MacBook Air M1",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 7134,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1"
+    },
+    {
+      "id": 164,
+      "name": "MacBook Air M1",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 1000,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1"
+    },
+    {
+      "id": 165,
+      "name": "MacBook Air M1",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 4012,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1"
+    },
+    {
+      "id": 166,
+      "name": "MacBook Air M1",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 3716,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1"
+    },
+    {
+      "id": 167,
+      "name": "MacBook Air M1",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 6110,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1"
+    },
+    {
+      "id": 168,
+      "name": "MacBook Pro M1",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 69260,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1"
+    },
+    {
+      "id": 169,
+      "name": "MacBook Pro M1",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 61612,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1"
+    },
+    {
+      "id": 170,
+      "name": "MacBook Pro M1",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 66810,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1"
+    },
+    {
+      "id": 171,
+      "name": "MacBook Pro M1",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 66691,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1"
+    },
+    {
+      "id": 172,
+      "name": "MacBook Pro M1",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 66745,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1"
+    },
+    {
+      "id": 173,
+      "name": "Lenovo IdeaPad",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 111925,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad"
+    },
+    {
+      "id": 174,
+      "name": "Lenovo IdeaPad",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 119275,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad"
+    },
+    {
+      "id": 175,
+      "name": "Lenovo IdeaPad",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 112666,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad"
+    },
+    {
+      "id": 176,
+      "name": "Lenovo IdeaPad",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 114257,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad"
+    },
+    {
+      "id": 177,
+      "name": "Lenovo IdeaPad",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 118763,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad"
+    },
+    {
+      "id": 178,
+      "name": "Asus VivoBook",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 116924,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Asus+VivoBook"
+    },
+    {
+      "id": 179,
+      "name": "Asus VivoBook",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 114478,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Asus+VivoBook"
+    },
+    {
+      "id": 180,
+      "name": "Asus VivoBook",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 118606,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Asus+VivoBook"
+    },
+    {
+      "id": 181,
+      "name": "Asus VivoBook",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 115310,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Asus+VivoBook"
+    },
+    {
+      "id": 182,
+      "name": "Asus VivoBook",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 111434,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Asus+VivoBook"
+    },
+    {
+      "id": 183,
+      "name": "Acer Aspire 7",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 94676,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7"
+    },
+    {
+      "id": 184,
+      "name": "Acer Aspire 7",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 90329,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7"
+    },
+    {
+      "id": 185,
+      "name": "Acer Aspire 7",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 92041,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7"
+    },
+    {
+      "id": 186,
+      "name": "Acer Aspire 7",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 88097,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7"
+    },
+    {
+      "id": 187,
+      "name": "Acer Aspire 7",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 85736,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7"
+    },
+    {
+      "id": 188,
+      "name": "MSI Gaming GF63",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 118110,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63"
+    },
+    {
+      "id": 189,
+      "name": "MSI Gaming GF63",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 116575,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63"
+    },
+    {
+      "id": 190,
+      "name": "MSI Gaming GF63",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 118338,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63"
+    },
+    {
+      "id": 191,
+      "name": "MSI Gaming GF63",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 119508,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63"
+    },
+    {
+      "id": 192,
+      "name": "MSI Gaming GF63",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 120375,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63"
+    },
+    {
+      "id": 193,
+      "name": "Razer Blade 15",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 30275,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15"
+    },
+    {
+      "id": 194,
+      "name": "Razer Blade 15",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 30783,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15"
+    },
+    {
+      "id": 195,
+      "name": "Razer Blade 15",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 28275,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15"
+    },
+    {
+      "id": 196,
+      "name": "Razer Blade 15",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 27938,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15"
+    },
+    {
+      "id": 197,
+      "name": "Razer Blade 15",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 26291,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15"
+    },
+    {
+      "id": 198,
+      "name": "Surface Laptop 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 21140,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Laptop+4"
+    },
+    {
+      "id": 199,
+      "name": "Surface Laptop 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 20212,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Laptop+4"
+    },
+    {
+      "id": 200,
+      "name": "Surface Laptop 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 19463,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Laptop+4"
+    },
+    {
+      "id": 201,
+      "name": "Surface Laptop 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 17529,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Laptop+4"
+    },
+    {
+      "id": 202,
+      "name": "Surface Laptop 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 20335,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Surface+Laptop+4"
+    },
+    {
+      "id": 203,
+      "name": "Sony WH-1000XM4",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 29014,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM4"
+    },
+    {
+      "id": 204,
+      "name": "Sony WH-1000XM4",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 26977,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM4"
+    },
+    {
+      "id": 205,
+      "name": "Sony WH-1000XM4",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 24554,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM4"
+    },
+    {
+      "id": 206,
+      "name": "Sony WH-1000XM4",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 32056,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM4"
+    },
+    {
+      "id": 207,
+      "name": "Sony WH-1000XM4",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 30098,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM4"
+    },
+    {
+      "id": 208,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 9470,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 209,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 17554,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 210,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 13439,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 211,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 8444,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 212,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 16835,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": 213,
+      "name": "Bose QC35 II",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 68933,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II"
+    },
+    {
+      "id": 214,
+      "name": "Bose QC35 II",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 75305,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II"
+    },
+    {
+      "id": 215,
+      "name": "Bose QC35 II",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 74909,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II"
+    },
+    {
+      "id": 216,
+      "name": "Bose QC35 II",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 71692,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II"
+    },
+    {
+      "id": 217,
+      "name": "Bose QC35 II",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 69336,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II"
+    },
+    {
+      "id": 218,
+      "name": "Bose QC45",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 105940,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 219,
+      "name": "Bose QC45",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 105148,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 220,
+      "name": "Bose QC45",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 101971,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 221,
+      "name": "Bose QC45",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 99798,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 222,
+      "name": "Bose QC45",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 99919,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45"
+    },
+    {
+      "id": 223,
+      "name": "JBL Tune 750",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 112085,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Tune+750"
+    },
+    {
+      "id": 224,
+      "name": "JBL Tune 750",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 112124,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Tune+750"
+    },
+    {
+      "id": 225,
+      "name": "JBL Tune 750",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 111296,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Tune+750"
+    },
+    {
+      "id": 226,
+      "name": "JBL Tune 750",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 105765,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Tune+750"
+    },
+    {
+      "id": 227,
+      "name": "JBL Tune 750",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 109468,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=JBL+Tune+750"
+    },
+    {
+      "id": 228,
+      "name": "Skullcandy Crusher",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 3134,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher"
+    },
+    {
+      "id": 229,
+      "name": "Skullcandy Crusher",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 3027,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher"
+    },
+    {
+      "id": 230,
+      "name": "Skullcandy Crusher",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 1000,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher"
+    },
+    {
+      "id": 231,
+      "name": "Skullcandy Crusher",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 4399,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher"
+    },
+    {
+      "id": 232,
+      "name": "Skullcandy Crusher",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 1000,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher"
+    },
+    {
+      "id": 233,
+      "name": "Apple AirPods Pro",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 44518,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro"
+    },
+    {
+      "id": 234,
+      "name": "Apple AirPods Pro",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 43657,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro"
+    },
+    {
+      "id": 235,
+      "name": "Apple AirPods Pro",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 52927,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro"
+    },
+    {
+      "id": 236,
+      "name": "Apple AirPods Pro",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 50987,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro"
+    },
+    {
+      "id": 237,
+      "name": "Apple AirPods Pro",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 50195,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro"
+    },
+    {
+      "id": 238,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 107030,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Buds+Pro"
+    },
+    {
+      "id": 239,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 106496,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Buds+Pro"
+    },
+    {
+      "id": 240,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 111355,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Buds+Pro"
+    },
+    {
+      "id": 241,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 111330,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Buds+Pro"
+    },
+    {
+      "id": 242,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 107229,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Buds+Pro"
+    },
+    {
+      "id": 243,
+      "name": "OnePlus Buds Z",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 74038,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z"
+    },
+    {
+      "id": 244,
+      "name": "OnePlus Buds Z",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 71450,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z"
+    },
+    {
+      "id": 245,
+      "name": "OnePlus Buds Z",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 72983,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z"
+    },
+    {
+      "id": 246,
+      "name": "OnePlus Buds Z",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 73649,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z"
+    },
+    {
+      "id": 247,
+      "name": "OnePlus Buds Z",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 74265,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z"
+    },
+    {
+      "id": 248,
+      "name": "Realme Buds Q2",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 30488,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2"
+    },
+    {
+      "id": 249,
+      "name": "Realme Buds Q2",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 26161,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2"
+    },
+    {
+      "id": 250,
+      "name": "Realme Buds Q2",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 33548,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2"
+    },
+    {
+      "id": 251,
+      "name": "Realme Buds Q2",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 34441,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2"
+    },
+    {
+      "id": 252,
+      "name": "Realme Buds Q2",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 26358,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2"
+    },
+    {
+      "id": 253,
+      "name": "Samsung QLED 55",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 35982,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+QLED+55"
+    },
+    {
+      "id": 254,
+      "name": "Samsung QLED 55",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 40610,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+QLED+55"
+    },
+    {
+      "id": 255,
+      "name": "Samsung QLED 55",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 39557,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+QLED+55"
+    },
+    {
+      "id": 256,
+      "name": "Samsung QLED 55",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 41325,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+QLED+55"
+    },
+    {
+      "id": 257,
+      "name": "Samsung QLED 55",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 39476,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+QLED+55"
+    },
+    {
+      "id": 258,
+      "name": "LG OLED CX 65",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 71024,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65"
+    },
+    {
+      "id": 259,
+      "name": "LG OLED CX 65",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 72818,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65"
+    },
+    {
+      "id": 260,
+      "name": "LG OLED CX 65",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 71169,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65"
+    },
+    {
+      "id": 261,
+      "name": "LG OLED CX 65",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 73222,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65"
+    },
+    {
+      "id": 262,
+      "name": "LG OLED CX 65",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 73411,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65"
+    },
+    {
+      "id": 263,
+      "name": "Sony Bravia 50",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 35451,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50"
+    },
+    {
+      "id": 264,
+      "name": "Sony Bravia 50",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 35884,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50"
+    },
+    {
+      "id": 265,
+      "name": "Sony Bravia 50",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 37429,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50"
+    },
+    {
+      "id": 266,
+      "name": "Sony Bravia 50",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 29827,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50"
+    },
+    {
+      "id": 267,
+      "name": "Sony Bravia 50",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 37526,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50"
+    },
+    {
+      "id": 268,
+      "name": "Sony Bravia 65",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 111432,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65"
+    },
+    {
+      "id": 269,
+      "name": "Sony Bravia 65",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 118832,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65"
+    },
+    {
+      "id": 270,
+      "name": "Sony Bravia 65",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 111045,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65"
+    },
+    {
+      "id": 271,
+      "name": "Sony Bravia 65",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 113084,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65"
+    },
+    {
+      "id": 272,
+      "name": "Sony Bravia 65",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 113372,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65"
+    },
+    {
+      "id": 273,
+      "name": "OnePlus TV 43",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 17472,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43"
+    },
+    {
+      "id": 274,
+      "name": "OnePlus TV 43",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 16651,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43"
+    },
+    {
+      "id": 275,
+      "name": "OnePlus TV 43",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 16231,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43"
+    },
+    {
+      "id": 276,
+      "name": "OnePlus TV 43",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 16740,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43"
+    },
+    {
+      "id": 277,
+      "name": "OnePlus TV 43",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 9232,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43"
+    },
+    {
+      "id": 278,
+      "name": "Mi TV 4A 43",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 15031,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43"
+    },
+    {
+      "id": 279,
+      "name": "Mi TV 4A 43",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 9307,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43"
+    },
+    {
+      "id": 280,
+      "name": "Mi TV 4A 43",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 15159,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43"
+    },
+    {
+      "id": 281,
+      "name": "Mi TV 4A 43",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 16785,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43"
+    },
+    {
+      "id": 282,
+      "name": "Mi TV 4A 43",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 9027,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43"
+    },
+    {
+      "id": 283,
+      "name": "TCL 55P615",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 39410,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615"
+    },
+    {
+      "id": 284,
+      "name": "TCL 55P615",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 42998,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615"
+    },
+    {
+      "id": 285,
+      "name": "TCL 55P615",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 45706,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615"
+    },
+    {
+      "id": 286,
+      "name": "TCL 55P615",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 40516,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615"
+    },
+    {
+      "id": 287,
+      "name": "TCL 55P615",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 41770,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615"
+    },
+    {
+      "id": 288,
+      "name": "Vu Premium 4K 55",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 105450,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Vu+Premium+4K+55"
+    },
+    {
+      "id": 289,
+      "name": "Vu Premium 4K 55",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 111803,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Vu+Premium+4K+55"
+    },
+    {
+      "id": 290,
+      "name": "Vu Premium 4K 55",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 105359,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Vu+Premium+4K+55"
+    },
+    {
+      "id": 291,
+      "name": "Vu Premium 4K 55",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 106096,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Vu+Premium+4K+55"
+    },
+    {
+      "id": 292,
+      "name": "Vu Premium 4K 55",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 110977,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Vu+Premium+4K+55"
+    },
+    {
+      "id": 293,
+      "name": "Panasonic 4K 50",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 61400,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Panasonic+4K+50"
+    },
+    {
+      "id": 294,
+      "name": "Panasonic 4K 50",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 61764,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Panasonic+4K+50"
+    },
+    {
+      "id": 295,
+      "name": "Panasonic 4K 50",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 60585,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Panasonic+4K+50"
+    },
+    {
+      "id": 296,
+      "name": "Panasonic 4K 50",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 59566,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Panasonic+4K+50"
+    },
+    {
+      "id": 297,
+      "name": "Panasonic 4K 50",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 59160,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Panasonic+4K+50"
+    },
+    {
+      "id": 298,
+      "name": "Philips Ambilight 58",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 98348,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58"
+    },
+    {
+      "id": 299,
+      "name": "Philips Ambilight 58",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 93666,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58"
+    },
+    {
+      "id": 300,
+      "name": "Philips Ambilight 58",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 94244,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58"
+    },
+    {
+      "id": 301,
+      "name": "Philips Ambilight 58",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 99765,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58"
+    },
+    {
+      "id": 302,
+      "name": "Philips Ambilight 58",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 100819,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58"
+    },
+    {
+      "id": 303,
+      "name": "Apple Watch Series 7",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 74102,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+Series+7"
+    },
+    {
+      "id": 304,
+      "name": "Apple Watch Series 7",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 73790,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+Series+7"
+    },
+    {
+      "id": 305,
+      "name": "Apple Watch Series 7",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 73347,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+Series+7"
+    },
+    {
+      "id": 306,
+      "name": "Apple Watch Series 7",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 69660,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+Series+7"
+    },
+    {
+      "id": 307,
+      "name": "Apple Watch Series 7",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 69812,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+Series+7"
+    },
+    {
+      "id": 308,
+      "name": "Apple Watch SE",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 55142,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+SE"
+    },
+    {
+      "id": 309,
+      "name": "Apple Watch SE",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 56937,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+SE"
+    },
+    {
+      "id": 310,
+      "name": "Apple Watch SE",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 56286,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+SE"
+    },
+    {
+      "id": 311,
+      "name": "Apple Watch SE",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 63820,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+SE"
+    },
+    {
+      "id": 312,
+      "name": "Apple Watch SE",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 61290,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+Watch+SE"
+    },
+    {
+      "id": 313,
+      "name": "Samsung Galaxy Watch 4",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 109177,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4"
+    },
+    {
+      "id": 314,
+      "name": "Samsung Galaxy Watch 4",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 105998,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4"
+    },
+    {
+      "id": 315,
+      "name": "Samsung Galaxy Watch 4",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 103827,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4"
+    },
+    {
+      "id": 316,
+      "name": "Samsung Galaxy Watch 4",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 107868,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4"
+    },
+    {
+      "id": 317,
+      "name": "Samsung Galaxy Watch 4",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 104406,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4"
+    },
+    {
+      "id": 318,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 62270,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+5"
+    },
+    {
+      "id": 319,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 64391,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+5"
+    },
+    {
+      "id": 320,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 58560,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+5"
+    },
+    {
+      "id": 321,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 64938,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+5"
+    },
+    {
+      "id": 322,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 64095,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+5"
+    },
+    {
+      "id": 323,
+      "name": "Amazfit Bip U Pro",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 9777,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro"
+    },
+    {
+      "id": 324,
+      "name": "Amazfit Bip U Pro",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 5508,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro"
+    },
+    {
+      "id": 325,
+      "name": "Amazfit Bip U Pro",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 10935,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro"
+    },
+    {
+      "id": 326,
+      "name": "Amazfit Bip U Pro",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 11947,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro"
+    },
+    {
+      "id": 327,
+      "name": "Amazfit Bip U Pro",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 10976,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro"
+    },
+    {
+      "id": 328,
+      "name": "Fitbit Versa 3",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 8653,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3"
+    },
+    {
+      "id": 329,
+      "name": "Fitbit Versa 3",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 9234,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3"
+    },
+    {
+      "id": 330,
+      "name": "Fitbit Versa 3",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 7208,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3"
+    },
+    {
+      "id": 331,
+      "name": "Fitbit Versa 3",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 2191,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3"
+    },
+    {
+      "id": 332,
+      "name": "Fitbit Versa 3",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 9487,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3"
+    },
+    {
+      "id": 333,
+      "name": "Fitbit Sense",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 32961,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Sense"
+    },
+    {
+      "id": 334,
+      "name": "Fitbit Sense",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 40071,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Sense"
+    },
+    {
+      "id": 335,
+      "name": "Fitbit Sense",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 37049,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Sense"
+    },
+    {
+      "id": 336,
+      "name": "Fitbit Sense",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 33829,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Sense"
+    },
+    {
+      "id": 337,
+      "name": "Fitbit Sense",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 37311,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Sense"
+    },
+    {
+      "id": 338,
+      "name": "Noise ColorFit Pro 3",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 54758,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Noise+ColorFit+Pro+3"
+    },
+    {
+      "id": 339,
+      "name": "Noise ColorFit Pro 3",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 56652,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Noise+ColorFit+Pro+3"
+    },
+    {
+      "id": 340,
+      "name": "Noise ColorFit Pro 3",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 60261,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Noise+ColorFit+Pro+3"
+    },
+    {
+      "id": 341,
+      "name": "Noise ColorFit Pro 3",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 56692,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Noise+ColorFit+Pro+3"
+    },
+    {
+      "id": 342,
+      "name": "Noise ColorFit Pro 3",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 54384,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Noise+ColorFit+Pro+3"
+    },
+    {
+      "id": 343,
+      "name": "Boat Storm",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 89480,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm"
+    },
+    {
+      "id": 344,
+      "name": "Boat Storm",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 88350,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm"
+    },
+    {
+      "id": 345,
+      "name": "Boat Storm",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 86115,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm"
+    },
+    {
+      "id": 346,
+      "name": "Boat Storm",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 93569,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm"
+    },
+    {
+      "id": 347,
+      "name": "Boat Storm",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 84723,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm"
+    },
+    {
+      "id": 348,
+      "name": "Fossil Gen 5",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 53842,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fossil+Gen+5"
+    },
+    {
+      "id": 349,
+      "name": "Fossil Gen 5",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 53914,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fossil+Gen+5"
+    },
+    {
+      "id": 350,
+      "name": "Fossil Gen 5",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 55436,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fossil+Gen+5"
+    },
+    {
+      "id": 351,
+      "name": "Fossil Gen 5",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 55782,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fossil+Gen+5"
+    },
+    {
+      "id": 352,
+      "name": "Fossil Gen 5",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 54533,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fossil+Gen+5"
+    },
+    {
+      "id": 353,
+      "name": "Lenovo IdeaPad Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 113483,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+4"
+    },
+    {
+      "id": 354,
+      "name": "Lenovo IdeaPad Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 121571,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+4"
+    },
+    {
+      "id": 355,
+      "name": "Lenovo IdeaPad Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 113581,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+4"
+    },
+    {
+      "id": 356,
+      "name": "Lenovo IdeaPad Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 115697,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+4"
+    },
+    {
+      "id": 357,
+      "name": "Lenovo IdeaPad Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 119294,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+4"
+    },
+    {
+      "id": 358,
+      "name": "Amazfit Bip U Pro Variant 1",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 11233,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro+Variant+1"
+    },
+    {
+      "id": 359,
+      "name": "Amazfit Bip U Pro Variant 1",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 6932,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro+Variant+1"
+    },
+    {
+      "id": 360,
+      "name": "Amazfit Bip U Pro Variant 1",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 10468,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro+Variant+1"
+    },
+    {
+      "id": 361,
+      "name": "Amazfit Bip U Pro Variant 1",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 12445,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro+Variant+1"
+    },
+    {
+      "id": 362,
+      "name": "Amazfit Bip U Pro Variant 1",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 11587,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Amazfit+Bip+U+Pro+Variant+1"
+    },
+    {
+      "id": 363,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 1957,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 364,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 6001,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 365,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 2398,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 366,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 2706,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 367,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 2358,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 368,
+      "name": "Redmi Note 12 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 15521,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+5"
+    },
+    {
+      "id": 369,
+      "name": "Redmi Note 12 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 13025,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+5"
+    },
+    {
+      "id": 370,
+      "name": "Redmi Note 12 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 7441,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+5"
+    },
+    {
+      "id": 371,
+      "name": "Redmi Note 12 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 15356,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+5"
+    },
+    {
+      "id": 372,
+      "name": "Redmi Note 12 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 18512,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+5"
+    },
+    {
+      "id": 373,
+      "name": "Acer Aspire 7 Variant 1",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 94320,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+1"
+    },
+    {
+      "id": 374,
+      "name": "Acer Aspire 7 Variant 1",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 91517,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+1"
+    },
+    {
+      "id": 375,
+      "name": "Acer Aspire 7 Variant 1",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 93016,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+1"
+    },
+    {
+      "id": 376,
+      "name": "Acer Aspire 7 Variant 1",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 90266,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+1"
+    },
+    {
+      "id": 377,
+      "name": "Acer Aspire 7 Variant 1",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 83128,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+1"
+    },
+    {
+      "id": 378,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 106584,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 379,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 108136,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 380,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 101588,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 381,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 106366,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 382,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 105165,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 383,
+      "name": "Apple AirPods Pro Variant 3",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 41914,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+3"
+    },
+    {
+      "id": 384,
+      "name": "Apple AirPods Pro Variant 3",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 41361,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+3"
+    },
+    {
+      "id": 385,
+      "name": "Apple AirPods Pro Variant 3",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 53715,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+3"
+    },
+    {
+      "id": 386,
+      "name": "Apple AirPods Pro Variant 3",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 51302,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+3"
+    },
+    {
+      "id": 387,
+      "name": "Apple AirPods Pro Variant 3",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 48240,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+3"
+    },
+    {
+      "id": 388,
+      "name": "Dell Inspiron Variant 5",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 61111,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron+Variant+5"
+    },
+    {
+      "id": 389,
+      "name": "Dell Inspiron Variant 5",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 62780,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron+Variant+5"
+    },
+    {
+      "id": 390,
+      "name": "Dell Inspiron Variant 5",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 56388,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron+Variant+5"
+    },
+    {
+      "id": 391,
+      "name": "Dell Inspiron Variant 5",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 64868,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron+Variant+5"
+    },
+    {
+      "id": 392,
+      "name": "Dell Inspiron Variant 5",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 61502,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Dell+Inspiron+Variant+5"
+    },
+    {
+      "id": 393,
+      "name": "Bose QC35 II Variant 3",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 71655,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+3"
+    },
+    {
+      "id": 394,
+      "name": "Bose QC35 II Variant 3",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 77729,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+3"
+    },
+    {
+      "id": 395,
+      "name": "Bose QC35 II Variant 3",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 75082,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+3"
+    },
+    {
+      "id": 396,
+      "name": "Bose QC35 II Variant 3",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 71378,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+3"
+    },
+    {
+      "id": 397,
+      "name": "Bose QC35 II Variant 3",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 71825,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+3"
+    },
+    {
+      "id": 398,
+      "name": "HP Pavilion Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 34305,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+4"
+    },
+    {
+      "id": 399,
+      "name": "HP Pavilion Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 30291,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+4"
+    },
+    {
+      "id": 400,
+      "name": "HP Pavilion Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 35529,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+4"
+    },
+    {
+      "id": 401,
+      "name": "HP Pavilion Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 36466,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+4"
+    },
+    {
+      "id": 402,
+      "name": "HP Pavilion Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 34724,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+4"
+    },
+    {
+      "id": 403,
+      "name": "Apple AirPods Pro Variant 1",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 46288,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+1"
+    },
+    {
+      "id": 404,
+      "name": "Apple AirPods Pro Variant 1",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 43705,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+1"
+    },
+    {
+      "id": 405,
+      "name": "Apple AirPods Pro Variant 1",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 52219,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+1"
+    },
+    {
+      "id": 406,
+      "name": "Apple AirPods Pro Variant 1",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 53782,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+1"
+    },
+    {
+      "id": 407,
+      "name": "Apple AirPods Pro Variant 1",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 52996,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Apple+AirPods+Pro+Variant+1"
+    },
+    {
+      "id": 408,
+      "name": "MacBook Pro M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 70121,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1+Variant+4"
+    },
+    {
+      "id": 409,
+      "name": "MacBook Pro M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 63743,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1+Variant+4"
+    },
+    {
+      "id": 410,
+      "name": "MacBook Pro M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 65215,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1+Variant+4"
+    },
+    {
+      "id": 411,
+      "name": "MacBook Pro M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 64380,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1+Variant+4"
+    },
+    {
+      "id": 412,
+      "name": "MacBook Pro M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 67385,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Pro+M1+Variant+4"
+    },
+    {
+      "id": 413,
+      "name": "OnePlus 10 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 120960,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10+Variant+3"
+    },
+    {
+      "id": 414,
+      "name": "OnePlus 10 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 117386,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10+Variant+3"
+    },
+    {
+      "id": 415,
+      "name": "OnePlus 10 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 121172,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10+Variant+3"
+    },
+    {
+      "id": 416,
+      "name": "OnePlus 10 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 111892,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10+Variant+3"
+    },
+    {
+      "id": 417,
+      "name": "OnePlus 10 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 123867,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+10+Variant+3"
+    },
+    {
+      "id": 418,
+      "name": "Mi TV 4A 43 Variant 3",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 16946,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43+Variant+3"
+    },
+    {
+      "id": 419,
+      "name": "Mi TV 4A 43 Variant 3",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 10192,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43+Variant+3"
+    },
+    {
+      "id": 420,
+      "name": "Mi TV 4A 43 Variant 3",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 17169,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43+Variant+3"
+    },
+    {
+      "id": 421,
+      "name": "Mi TV 4A 43 Variant 3",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 18663,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43+Variant+3"
+    },
+    {
+      "id": 422,
+      "name": "Mi TV 4A 43 Variant 3",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 10652,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Mi+TV+4A+43+Variant+3"
+    },
+    {
+      "id": 423,
+      "name": "Redmi Note 12 Variant 4",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 17851,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+4"
+    },
+    {
+      "id": 424,
+      "name": "Redmi Note 12 Variant 4",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 12560,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+4"
+    },
+    {
+      "id": 425,
+      "name": "Redmi Note 12 Variant 4",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 7457,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+4"
+    },
+    {
+      "id": 426,
+      "name": "Redmi Note 12 Variant 4",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 15962,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+4"
+    },
+    {
+      "id": 427,
+      "name": "Redmi Note 12 Variant 4",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 16885,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Redmi+Note+12+Variant+4"
+    },
+    {
+      "id": 428,
+      "name": "OnePlus Buds Z Variant 5",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 76975,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+5"
+    },
+    {
+      "id": 429,
+      "name": "OnePlus Buds Z Variant 5",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 72584,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+5"
+    },
+    {
+      "id": 430,
+      "name": "OnePlus Buds Z Variant 5",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 75414,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+5"
+    },
+    {
+      "id": 431,
+      "name": "OnePlus Buds Z Variant 5",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 73017,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+5"
+    },
+    {
+      "id": 432,
+      "name": "OnePlus Buds Z Variant 5",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 75089,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+5"
+    },
+    {
+      "id": 433,
+      "name": "Bose QC35 II Variant 1",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 67790,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+1"
+    },
+    {
+      "id": 434,
+      "name": "Bose QC35 II Variant 1",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 75547,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+1"
+    },
+    {
+      "id": 435,
+      "name": "Bose QC35 II Variant 1",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 77038,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+1"
+    },
+    {
+      "id": 436,
+      "name": "Bose QC35 II Variant 1",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 70587,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+1"
+    },
+    {
+      "id": 437,
+      "name": "Bose QC35 II Variant 1",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 72269,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC35+II+Variant+1"
+    },
+    {
+      "id": 438,
+      "name": "TCL 55P615 Variant 4",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 38104,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615+Variant+4"
+    },
+    {
+      "id": 439,
+      "name": "TCL 55P615 Variant 4",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 44762,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615+Variant+4"
+    },
+    {
+      "id": 440,
+      "name": "TCL 55P615 Variant 4",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 47807,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615+Variant+4"
+    },
+    {
+      "id": 441,
+      "name": "TCL 55P615 Variant 4",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 41456,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615+Variant+4"
+    },
+    {
+      "id": 442,
+      "name": "TCL 55P615 Variant 4",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 39907,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=TCL+55P615+Variant+4"
+    },
+    {
+      "id": 443,
+      "name": "Realme Buds Q2 Variant 1",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 28341,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+1"
+    },
+    {
+      "id": 444,
+      "name": "Realme Buds Q2 Variant 1",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 28993,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+1"
+    },
+    {
+      "id": 445,
+      "name": "Realme Buds Q2 Variant 1",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 32570,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+1"
+    },
+    {
+      "id": 446,
+      "name": "Realme Buds Q2 Variant 1",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 35869,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+1"
+    },
+    {
+      "id": 447,
+      "name": "Realme Buds Q2 Variant 1",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 26441,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+1"
+    },
+    {
+      "id": 448,
+      "name": "Razer Blade 15 Variant 3",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 30451,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15+Variant+3"
+    },
+    {
+      "id": 449,
+      "name": "Razer Blade 15 Variant 3",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 28986,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15+Variant+3"
+    },
+    {
+      "id": 450,
+      "name": "Razer Blade 15 Variant 3",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 28205,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15+Variant+3"
+    },
+    {
+      "id": 451,
+      "name": "Razer Blade 15 Variant 3",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 29359,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15+Variant+3"
+    },
+    {
+      "id": 452,
+      "name": "Razer Blade 15 Variant 3",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 27863,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Razer+Blade+15+Variant+3"
+    },
+    {
+      "id": 453,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 7017,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 454,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 3480,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 455,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 1080,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 456,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 6364,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 457,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 3962,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 458,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 5752,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 459,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 2324,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 460,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 1000,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 461,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 4429,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 462,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 2341,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 463,
+      "name": "Sony Bravia 50 Variant 2",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 32603,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50+Variant+2"
+    },
+    {
+      "id": 464,
+      "name": "Sony Bravia 50 Variant 2",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 35907,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50+Variant+2"
+    },
+    {
+      "id": 465,
+      "name": "Sony Bravia 50 Variant 2",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 38747,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50+Variant+2"
+    },
+    {
+      "id": 466,
+      "name": "Sony Bravia 50 Variant 2",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 31838,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50+Variant+2"
+    },
+    {
+      "id": 467,
+      "name": "Sony Bravia 50 Variant 2",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 35317,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+50+Variant+2"
+    },
+    {
+      "id": 468,
+      "name": "Lenovo IdeaPad Variant 5",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 110307,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+5"
+    },
+    {
+      "id": 469,
+      "name": "Lenovo IdeaPad Variant 5",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 120978,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+5"
+    },
+    {
+      "id": 470,
+      "name": "Lenovo IdeaPad Variant 5",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 115378,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+5"
+    },
+    {
+      "id": 471,
+      "name": "Lenovo IdeaPad Variant 5",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 116698,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+5"
+    },
+    {
+      "id": 472,
+      "name": "Lenovo IdeaPad Variant 5",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 118901,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Lenovo+IdeaPad+Variant+5"
+    },
+    {
+      "id": 473,
+      "name": "LG OLED CX 65 Variant 1",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 71868,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65+Variant+1"
+    },
+    {
+      "id": 474,
+      "name": "LG OLED CX 65 Variant 1",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 70046,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65+Variant+1"
+    },
+    {
+      "id": 475,
+      "name": "LG OLED CX 65 Variant 1",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 73112,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65+Variant+1"
+    },
+    {
+      "id": 476,
+      "name": "LG OLED CX 65 Variant 1",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 75842,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65+Variant+1"
+    },
+    {
+      "id": 477,
+      "name": "LG OLED CX 65 Variant 1",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 74787,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=LG+OLED+CX+65+Variant+1"
+    },
+    {
+      "id": 478,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 25754,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 479,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 24505,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 480,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 22529,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 481,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 20718,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 482,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 24950,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 483,
+      "name": "Realme Buds Q2 Variant 4",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 28900,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+4"
+    },
+    {
+      "id": 484,
+      "name": "Realme Buds Q2 Variant 4",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 23743,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+4"
+    },
+    {
+      "id": 485,
+      "name": "Realme Buds Q2 Variant 4",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 34299,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+4"
+    },
+    {
+      "id": 486,
+      "name": "Realme Buds Q2 Variant 4",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 34760,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+4"
+    },
+    {
+      "id": 487,
+      "name": "Realme Buds Q2 Variant 4",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 23606,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Realme+Buds+Q2+Variant+4"
+    },
+    {
+      "id": 488,
+      "name": "OnePlus Buds Z Variant 1",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 75691,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+1"
+    },
+    {
+      "id": 489,
+      "name": "OnePlus Buds Z Variant 1",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 73649,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+1"
+    },
+    {
+      "id": 490,
+      "name": "OnePlus Buds Z Variant 1",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 72450,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+1"
+    },
+    {
+      "id": 491,
+      "name": "OnePlus Buds Z Variant 1",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 75960,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+1"
+    },
+    {
+      "id": 492,
+      "name": "OnePlus Buds Z Variant 1",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 72774,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+Buds+Z+Variant+1"
+    },
+    {
+      "id": 493,
+      "name": "MSI Gaming GF63 Variant 3",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 118186,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+3"
+    },
+    {
+      "id": 494,
+      "name": "MSI Gaming GF63 Variant 3",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 117470,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+3"
+    },
+    {
+      "id": 495,
+      "name": "MSI Gaming GF63 Variant 3",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 120596,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+3"
+    },
+    {
+      "id": 496,
+      "name": "MSI Gaming GF63 Variant 3",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 120427,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+3"
+    },
+    {
+      "id": 497,
+      "name": "MSI Gaming GF63 Variant 3",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 123270,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+3"
+    },
+    {
+      "id": 498,
+      "name": "Philips Ambilight 58 Variant 5",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 98815,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+5"
+    },
+    {
+      "id": 499,
+      "name": "Philips Ambilight 58 Variant 5",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 96416,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+5"
+    },
+    {
+      "id": 500,
+      "name": "Philips Ambilight 58 Variant 5",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 91359,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+5"
+    },
+    {
+      "id": 501,
+      "name": "Philips Ambilight 58 Variant 5",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 99053,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+5"
+    },
+    {
+      "id": 502,
+      "name": "Philips Ambilight 58 Variant 5",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 100221,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+5"
+    },
+    {
+      "id": 503,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 25803,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 504,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 27177,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 505,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 17080,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 506,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 23655,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 507,
+      "name": "iPhone 14 Variant 1",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 27194,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=iPhone+14+Variant+1"
+    },
+    {
+      "id": 508,
+      "name": "Google Pixel 6 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 121854,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+3"
+    },
+    {
+      "id": 509,
+      "name": "Google Pixel 6 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 119145,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+3"
+    },
+    {
+      "id": 510,
+      "name": "Google Pixel 6 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 116784,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+3"
+    },
+    {
+      "id": 511,
+      "name": "Google Pixel 6 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 117413,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+3"
+    },
+    {
+      "id": 512,
+      "name": "Google Pixel 6 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 120933,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+3"
+    },
+    {
+      "id": 513,
+      "name": "Boat Storm Variant 3",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 90978,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm+Variant+3"
+    },
+    {
+      "id": 514,
+      "name": "Boat Storm Variant 3",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 88574,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm+Variant+3"
+    },
+    {
+      "id": 515,
+      "name": "Boat Storm Variant 3",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 85223,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm+Variant+3"
+    },
+    {
+      "id": 516,
+      "name": "Boat Storm Variant 3",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 94661,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm+Variant+3"
+    },
+    {
+      "id": 517,
+      "name": "Boat Storm Variant 3",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 83178,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Boat+Storm+Variant+3"
+    },
+    {
+      "id": 518,
+      "name": "Sony Bravia 65 Variant 5",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 110087,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+5"
+    },
+    {
+      "id": 519,
+      "name": "Sony Bravia 65 Variant 5",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 119819,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+5"
+    },
+    {
+      "id": 520,
+      "name": "Sony Bravia 65 Variant 5",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 108368,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+5"
+    },
+    {
+      "id": 521,
+      "name": "Sony Bravia 65 Variant 5",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 110351,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+5"
+    },
+    {
+      "id": 522,
+      "name": "Sony Bravia 65 Variant 5",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 114835,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+5"
+    },
+    {
+      "id": 523,
+      "name": "MacBook Air M1 Variant 3",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 7189,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+3"
+    },
+    {
+      "id": 524,
+      "name": "MacBook Air M1 Variant 3",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 3034,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+3"
+    },
+    {
+      "id": 525,
+      "name": "MacBook Air M1 Variant 3",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 5796,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+3"
+    },
+    {
+      "id": 526,
+      "name": "MacBook Air M1 Variant 3",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 1531,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+3"
+    },
+    {
+      "id": 527,
+      "name": "MacBook Air M1 Variant 3",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 3761,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+3"
+    },
+    {
+      "id": 528,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 1145,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 529,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 2461,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 530,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 2623,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 531,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 5667,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 532,
+      "name": "Skullcandy Crusher Variant 3",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 3155,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Skullcandy+Crusher+Variant+3"
+    },
+    {
+      "id": 533,
+      "name": "MSI Gaming GF63 Variant 1",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 118505,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+1"
+    },
+    {
+      "id": 534,
+      "name": "MSI Gaming GF63 Variant 1",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 119470,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+1"
+    },
+    {
+      "id": 535,
+      "name": "MSI Gaming GF63 Variant 1",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 117932,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+1"
+    },
+    {
+      "id": 536,
+      "name": "MSI Gaming GF63 Variant 1",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 121208,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+1"
+    },
+    {
+      "id": 537,
+      "name": "MSI Gaming GF63 Variant 1",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 121008,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+1"
+    },
+    {
+      "id": 538,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 7205,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 539,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 2575,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 540,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 6538,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 541,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 6327,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 542,
+      "name": "MacBook Air M1 Variant 5",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 8902,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+5"
+    },
+    {
+      "id": 543,
+      "name": "Sony Bravia 65 Variant 2",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 112455,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+2"
+    },
+    {
+      "id": 544,
+      "name": "Sony Bravia 65 Variant 2",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 118548,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+2"
+    },
+    {
+      "id": 545,
+      "name": "Sony Bravia 65 Variant 2",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 109777,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+2"
+    },
+    {
+      "id": 546,
+      "name": "Sony Bravia 65 Variant 2",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 110785,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+2"
+    },
+    {
+      "id": 547,
+      "name": "Sony Bravia 65 Variant 2",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 113140,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Sony+Bravia+65+Variant+2"
+    },
+    {
+      "id": 548,
+      "name": "Philips Ambilight 58 Variant 2",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 96206,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+2"
+    },
+    {
+      "id": 549,
+      "name": "Philips Ambilight 58 Variant 2",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 95365,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+2"
+    },
+    {
+      "id": 550,
+      "name": "Philips Ambilight 58 Variant 2",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 91920,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+2"
+    },
+    {
+      "id": 551,
+      "name": "Philips Ambilight 58 Variant 2",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 100017,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+2"
+    },
+    {
+      "id": 552,
+      "name": "Philips Ambilight 58 Variant 2",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 102050,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Philips+Ambilight+58+Variant+2"
+    },
+    {
+      "id": 553,
+      "name": "Bose QC45 Variant 4",
+      "category": "Headphones",
+      "vendor": "Amazon",
+      "price": 106448,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45+Variant+4"
+    },
+    {
+      "id": 554,
+      "name": "Bose QC45 Variant 4",
+      "category": "Headphones",
+      "vendor": "Flipkart",
+      "price": 102213,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45+Variant+4"
+    },
+    {
+      "id": 555,
+      "name": "Bose QC45 Variant 4",
+      "category": "Headphones",
+      "vendor": "Reliance Digital",
+      "price": 99730,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45+Variant+4"
+    },
+    {
+      "id": 556,
+      "name": "Bose QC45 Variant 4",
+      "category": "Headphones",
+      "vendor": "Croma",
+      "price": 100412,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45+Variant+4"
+    },
+    {
+      "id": 557,
+      "name": "Bose QC45 Variant 4",
+      "category": "Headphones",
+      "vendor": "Vijay Sales",
+      "price": 102862,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Bose+QC45+Variant+4"
+    },
+    {
+      "id": 558,
+      "name": "MacBook Air M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 8938,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+4"
+    },
+    {
+      "id": 559,
+      "name": "MacBook Air M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 2926,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+4"
+    },
+    {
+      "id": 560,
+      "name": "MacBook Air M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 1430,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+4"
+    },
+    {
+      "id": 561,
+      "name": "MacBook Air M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 2857,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+4"
+    },
+    {
+      "id": 562,
+      "name": "MacBook Air M1 Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 6531,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MacBook+Air+M1+Variant+4"
+    },
+    {
+      "id": 563,
+      "name": "MSI Gaming GF63 Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 118081,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+4"
+    },
+    {
+      "id": 564,
+      "name": "MSI Gaming GF63 Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 117527,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+4"
+    },
+    {
+      "id": 565,
+      "name": "MSI Gaming GF63 Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 119471,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+4"
+    },
+    {
+      "id": 566,
+      "name": "MSI Gaming GF63 Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 118690,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+4"
+    },
+    {
+      "id": 567,
+      "name": "MSI Gaming GF63 Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 122184,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=MSI+Gaming+GF63+Variant+4"
+    },
+    {
+      "id": 568,
+      "name": "HP Pavilion Variant 2",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 30122,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+2"
+    },
+    {
+      "id": 569,
+      "name": "HP Pavilion Variant 2",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 33754,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+2"
+    },
+    {
+      "id": 570,
+      "name": "HP Pavilion Variant 2",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 37880,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+2"
+    },
+    {
+      "id": 571,
+      "name": "HP Pavilion Variant 2",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 37139,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+2"
+    },
+    {
+      "id": 572,
+      "name": "HP Pavilion Variant 2",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 29813,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=HP+Pavilion+Variant+2"
+    },
+    {
+      "id": 573,
+      "name": "Fitbit Versa 3 Variant 2",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 9589,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3+Variant+2"
+    },
+    {
+      "id": 574,
+      "name": "Fitbit Versa 3 Variant 2",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 8868,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3+Variant+2"
+    },
+    {
+      "id": 575,
+      "name": "Fitbit Versa 3 Variant 2",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 5737,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3+Variant+2"
+    },
+    {
+      "id": 576,
+      "name": "Fitbit Versa 3 Variant 2",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 3687,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3+Variant+2"
+    },
+    {
+      "id": 577,
+      "name": "Fitbit Versa 3 Variant 2",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 11673,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Fitbit+Versa+3+Variant+2"
+    },
+    {
+      "id": 578,
+      "name": "Google Pixel 6 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 122292,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+5"
+    },
+    {
+      "id": 579,
+      "name": "Google Pixel 6 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 123430,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+5"
+    },
+    {
+      "id": 580,
+      "name": "Google Pixel 6 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 119328,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+5"
+    },
+    {
+      "id": 581,
+      "name": "Google Pixel 6 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 120818,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+5"
+    },
+    {
+      "id": 582,
+      "name": "Google Pixel 6 Variant 5",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 125443,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Google+Pixel+6+Variant+5"
+    },
+    {
+      "id": 583,
+      "name": "OnePlus TV 43 Variant 4",
+      "category": "TVs",
+      "vendor": "Amazon",
+      "price": 15757,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43+Variant+4"
+    },
+    {
+      "id": 584,
+      "name": "OnePlus TV 43 Variant 4",
+      "category": "TVs",
+      "vendor": "Flipkart",
+      "price": 15842,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43+Variant+4"
+    },
+    {
+      "id": 585,
+      "name": "OnePlus TV 43 Variant 4",
+      "category": "TVs",
+      "vendor": "Reliance Digital",
+      "price": 15278,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43+Variant+4"
+    },
+    {
+      "id": 586,
+      "name": "OnePlus TV 43 Variant 4",
+      "category": "TVs",
+      "vendor": "Croma",
+      "price": 17019,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43+Variant+4"
+    },
+    {
+      "id": 587,
+      "name": "OnePlus TV 43 Variant 4",
+      "category": "TVs",
+      "vendor": "Vijay Sales",
+      "price": 6769,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=OnePlus+TV+43+Variant+4"
+    },
+    {
+      "id": 588,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Amazon",
+      "price": 109747,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 589,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Flipkart",
+      "price": 106667,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 590,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Reliance Digital",
+      "price": 101894,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 591,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Croma",
+      "price": 108971,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 592,
+      "name": "Samsung Galaxy Watch 4 Variant 1",
+      "category": "Watches",
+      "vendor": "Vijay Sales",
+      "price": 104219,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+Watch+4+Variant+1"
+    },
+    {
+      "id": 593,
+      "name": "Acer Aspire 7 Variant 4",
+      "category": "Laptops",
+      "vendor": "Amazon",
+      "price": 92981,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+4"
+    },
+    {
+      "id": 594,
+      "name": "Acer Aspire 7 Variant 4",
+      "category": "Laptops",
+      "vendor": "Flipkart",
+      "price": 87565,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+4"
+    },
+    {
+      "id": 595,
+      "name": "Acer Aspire 7 Variant 4",
+      "category": "Laptops",
+      "vendor": "Reliance Digital",
+      "price": 93734,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+4"
+    },
+    {
+      "id": 596,
+      "name": "Acer Aspire 7 Variant 4",
+      "category": "Laptops",
+      "vendor": "Croma",
+      "price": 88661,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+4"
+    },
+    {
+      "id": 597,
+      "name": "Acer Aspire 7 Variant 4",
+      "category": "Laptops",
+      "vendor": "Vijay Sales",
+      "price": 83846,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Acer+Aspire+7+Variant+4"
+    },
+    {
+      "id": 598,
+      "name": "Samsung Galaxy S21 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Amazon",
+      "price": 51184,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21+Variant+3"
+    },
+    {
+      "id": 599,
+      "name": "Samsung Galaxy S21 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Flipkart",
+      "price": 47505,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21+Variant+3"
+    },
+    {
+      "id": 600,
+      "name": "Samsung Galaxy S21 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Reliance Digital",
+      "price": 48786,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21+Variant+3"
+    },
+    {
+      "id": 601,
+      "name": "Samsung Galaxy S21 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Croma",
+      "price": 49034,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21+Variant+3"
+    },
+    {
+      "id": 602,
+      "name": "Samsung Galaxy S21 Variant 3",
+      "category": "Mobiles",
+      "vendor": "Vijay Sales",
+      "price": 52372,
+      "rating": null,
+      "image": "https://via.placeholder.com/200x200?text=Samsung+Galaxy+S21+Variant+3"
+    }
+  ]
+}
