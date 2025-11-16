@@ -5,23 +5,30 @@ let productsData = [];
 let currentSearchTerm = "";
 let currentCategory = "all";
 
-// Try to automatically match local image for each product
+// =======================
+// Optimized Local Image Loader
+// =======================
 function getLocalImage(productName) {
-  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, ""); // remove spaces, symbols
-
-  // Image folder
+  // Normalize name (remove symbols, lowercase)
+  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, "");
   const folder = "./images/";
+  const extensions = ["webp", "png", "jpg", "jpeg"];
 
-  // Possible image extensions
-  const extensions = ["jpg", "jpeg", "png", "webp"];
-
-  // Try finding matching image
+  // Just return the first likely image path — no blocking network calls
   for (let ext of extensions) {
-    const filePath = `${folder}${safeName}.${ext}`;
-    if (imageExists(filePath)) return filePath;
+    const imagePath = `${folder}${safeName}.${ext}`;
+    const img = new Image();
+    img.src = imagePath;
+    img.loading = "lazy";
+
+    // If it fails, fallback to placeholder
+    img.onerror = () => {
+      img.src = "https://via.placeholder.com/200x200?text=No+Image";
+    };
+    return imagePath;
   }
 
-  // If NOT found → return placeholder
+  // Default fallback
   return "https://via.placeholder.com/200x200?text=No+Image";
 }
 
