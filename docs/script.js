@@ -5,30 +5,23 @@ let productsData = [];
 let currentSearchTerm = "";
 let currentCategory = "all";
 
-// =======================
-// Optimized Local Image Loader
-// =======================
+// Try to automatically match local image for each product
 function getLocalImage(productName) {
-  // Normalize name (remove symbols, lowercase)
-  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, ""); // remove spaces, symbols
+
+  // Image folder
   const folder = "./images/";
-  const extensions = ["webp", "png", "jpg", "jpeg"];
 
-  // Just return the first likely image path — no blocking network calls
+  // Possible image extensions
+  const extensions = ["jpg", "jpeg", "png", "webp"];
+
+  // Try finding matching image
   for (let ext of extensions) {
-    const imagePath = `${folder}${safeName}.${ext}`;
-    const img = new Image();
-    img.src = imagePath;
-    img.loading = "lazy";
-
-    // If it fails, fallback to placeholder
-    img.onerror = () => {
-      img.src = "https://via.placeholder.com/200x200?text=No+Image";
-    };
-    return imagePath;
+    const filePath = "${folder}${safeName}.${ext}";
+    if (imageExists(filePath)) return filePath;
   }
 
-  // Default fallback
+  // If NOT found → return placeholder
   return "https://via.placeholder.com/200x200?text=No+Image";
 }
 
@@ -257,9 +250,7 @@ function createProductCard(product) {
 
 <img src="${getLocalImage(product.name)}" alt="${
     product.name
-  }" class="product-image" loading="lazy">
-
-
+  }" class="product-image">
         <div class="vendor-cards">${vendorCardsHTML}</div>
       </div>
     </div>
