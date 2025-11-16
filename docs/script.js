@@ -5,6 +5,34 @@ let productsData = [];
 let currentSearchTerm = "";
 let currentCategory = "all";
 
+// Try to automatically match local image for each product
+function getLocalImage(productName) {
+  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, ""); // remove spaces, symbols
+
+  // Image folder
+  const folder = "./images/";
+
+  // Possible image extensions
+  const extensions = ["jpg", "jpeg", "png", "webp"];
+
+  // Try finding matching image
+  for (let ext of extensions) {
+    const filePath = `${folder}${safeName}.${ext}`;
+    if (imageExists(filePath)) return filePath;
+  }
+
+  // If NOT found → return placeholder
+  return "https://via.placeholder.com/200x200?text=No+Image";
+}
+
+// Check if image exists
+function imageExists(url) {
+  var http = new XMLHttpRequest();
+  http.open("HEAD", url, false);
+  http.send();
+  return http.status != 404;
+}
+
 // =======================
 // Load products data
 // =======================
@@ -214,11 +242,15 @@ function createProductCard(product) {
           <div class="product-meta">
             <span><i class="fas fa-tag me-1"></i>${product.category}</span>
             <span><i class="fas fa-star me-1"></i>${avgRating} avg rating</span>
-            <span><i class="fas fa-store me-1"></i>${product.vendors.length} vendors</span>
+            <span><i class="fas fa-store me-1"></i>${
+              product.vendors.length
+            } vendors</span>
           </div>
         </div>
 
-        <img src="${product.image}" alt="${product.name}" class="product-image">
+<img src="${getLocalImage(product.name)}" alt="${
+    product.name
+  }" class="product-image">
 
         <div class="vendor-cards">${vendorCardsHTML}</div>
       </div>
