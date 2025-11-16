@@ -250,7 +250,8 @@ function createProductCard(product) {
 
 <img src="${getLocalImage(product.name)}" alt="${
     product.name
-  }" class="product-image">
+  }" class="product-image" loading="lazy">
+
 
         <div class="vendor-cards">${vendorCardsHTML}</div>
       </div>
