@@ -5,33 +5,6 @@ let productsData = [];
 let currentSearchTerm = "";
 let currentCategory = "all";
 
-// Try to automatically match local image for each product
-function getLocalImage(productName) {
-  const safeName = productName.toLowerCase().replace(/[^a-z0-9]/g, ""); // remove spaces, symbols
-
-  // Image folder
-  const folder = "./images/";
-
-  // Possible image extensions
-  const extensions = ["jpg", "jpeg", "png", "webp"];
-
-  // Try finding matching image
-  for (let ext of extensions) {
-    const filePath = `${folder}${safeName}.${ext}`;
-    if (imageExists(filePath)) return filePath;
-  }
-
-  // If NOT found → return placeholder
-  return "https://via.placeholder.com/200x200?text=No+Image";
-}
-
-// Check if image exists
-function imageExists(url) {
-  var http = new XMLHttpRequest();
-  http.open("HEAD", url, false);
-  http.send();
-  return http.status != 404;
-}
 
 // =======================
 // Load products data
@@ -43,7 +16,7 @@ async function loadProductsData() {
     productsData = data.products;
     console.log("Products loaded:", productsData.length);
 
-    // If on comparison page, handle query params
+    // Handle search params on comparison page
     if (window.location.pathname.includes("comparison.html")) {
       const urlParams = new URLSearchParams(window.location.search);
       const searchTerm = urlParams.get("search");
@@ -61,8 +34,9 @@ async function loadProductsData() {
   }
 }
 
+
 // =======================
-// Levenshtein Distance (typo tolerance)
+// Levenshtein Distance
 // =======================
 function levenshteinDistance(str1, str2) {
   const matrix = [];
@@ -86,6 +60,7 @@ function levenshteinDistance(str1, str2) {
 
   return matrix[str2.length][str1.length];
 }
+
 
 // =======================
 // Smart Search Engine
@@ -115,9 +90,6 @@ function smartSearch(query) {
       });
     });
 
-    /* if (score > 0) results.push({ ...product, score }); */
-
-    // STRICT FILTER: ensure real match (not only typo tolerance)
     const cleanMatch = searchTerms.some(
       (term) => productName.includes(term) || productCategory.includes(term)
     );
@@ -132,8 +104,9 @@ function smartSearch(query) {
   return results;
 }
 
+
 // =======================
-// Group products by name
+// Group products
 // =======================
 function groupProductsByName(products) {
   const grouped = {};
@@ -163,6 +136,7 @@ function groupProductsByName(products) {
   return Object.values(grouped);
 }
 
+
 // =======================
 // AI Recommendations
 // =======================
@@ -183,14 +157,11 @@ function getAIRecommendations(products, limit = 6) {
     recommendations.push(...grouped);
   });
 
-  const unique = recommendations
-    .filter(
-      (rec, index, arr) => index === arr.findIndex((r) => r.name === rec.name)
-    )
+  return recommendations
+    .filter((rec, idx, arr) => idx === arr.findIndex((r) => r.name === rec.name))
     .slice(0, limit);
-
-  return unique;
 }
+
 
 // =======================
 // Price formatter
@@ -198,6 +169,7 @@ function getAIRecommendations(products, limit = 6) {
 function formatPrice(price) {
   return "₹" + price.toLocaleString("en-IN");
 }
+
 
 // =======================
 // Product Card
@@ -242,22 +214,23 @@ function createProductCard(product) {
           <div class="product-meta">
             <span><i class="fas fa-tag me-1"></i>${product.category}</span>
             <span><i class="fas fa-star me-1"></i>${avgRating} avg rating</span>
-            <span><i class="fas fa-store me-1"></i>${
-              product.vendors.length
-            } vendors</span>
+            <span><i class="fas fa-store me-1"></i>${product.vendors.length} vendors</span>
           </div>
         </div>
 
-      <img src="${getLocalImage(product.name)}" alt="${
-    product.name
-  }" class="product-image">
-
+        <!-- FIXED IMAGE (No Crashes) -->
+        <img 
+          src="https://via.placeholder.com/200x200?text=No+Image" 
+          alt="${product.name}" 
+          class="product-image"
+        >
 
         <div class="vendor-cards">${vendorCardsHTML}</div>
       </div>
     </div>
   `;
 }
+
 
 // =======================
 // Recommendation Card
@@ -268,7 +241,11 @@ function createRecommendationCard(product) {
   return `
     <div class="col-md-4 col-sm-6">
       <div class="recommendation-card">
-        <img src="${product.image}" alt="${product.name}">
+        <!-- FIXED IMAGE -->
+        <img 
+          src="https://via.placeholder.com/200x200?text=No+Image"
+          alt="${product.name}"
+        >
         <h6>${product.name}</h6>
         <div class="price">${formatPrice(lowestPrice)}</div>
         <small class="text-muted">${product.category}</small>
@@ -281,6 +258,7 @@ function createRecommendationCard(product) {
     </div>
   `;
 }
+
 
 // =======================
 // DISPLAY RESULTS
@@ -309,14 +287,15 @@ function displayResults(products) {
 
   document.getElementById("searchTerm").textContent = currentSearchTerm;
   document.getElementById("resultCount").textContent = grouped.length;
+
   searchInfo.style.display = "block";
   noResults.style.display = "none";
 
   const recommendations = getAIRecommendations(products);
+
   if (recommendations.length > 0) {
     document.getElementById("recommendationsContainer").innerHTML =
       recommendations.map((r) => createRecommendationCard(r)).join("");
-
     recSection.style.display = "block";
   } else {
     recSection.style.display = "none";
@@ -324,6 +303,7 @@ function displayResults(products) {
 
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
 
 // =======================
 // Perform Search
@@ -334,8 +314,9 @@ function performSearch(query) {
   displayResults(results);
 }
 
+
 // =======================
-// CATEGORY MAP (Most Important Fix)
+// Category Mapping
 // =======================
 const CATEGORY_MAP = {
   Smartphones: ["Smartphones", "Mobiles", "Phones"],
@@ -346,6 +327,7 @@ const CATEGORY_MAP = {
   Wearables: ["Wearables", "Smartwatches", "Fitness Bands", "Watches"],
   all: "all",
 };
+
 
 // =======================
 // Filter by Category
@@ -370,15 +352,16 @@ function filterByCategory(category) {
   displayResults(filtered);
 }
 
+
 // =======================
 // Event Listeners
 // =======================
 function initializeEventListeners() {
   const searchBtn = document.getElementById("searchBtn");
+
   if (searchBtn) {
     searchBtn.addEventListener("click", () => {
-      const searchInput = document.getElementById("searchInput");
-      const query = searchInput.value.trim();
+      const query = document.getElementById("searchInput").value.trim();
 
       if (query) {
         if (window.location.pathname.includes("comparison.html")) {
@@ -393,6 +376,7 @@ function initializeEventListeners() {
   }
 
   const searchInput = document.getElementById("searchInput");
+
   if (searchInput) {
     searchInput.addEventListener("keypress", (e) => {
       if (e.key === "Enter") {
@@ -412,6 +396,7 @@ function initializeEventListeners() {
   }
 
   const categoryBtns = document.querySelectorAll(".category-btn");
+
   categoryBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
       const category = btn.getAttribute("data-category");
@@ -429,6 +414,7 @@ function initializeEventListeners() {
     });
   });
 }
+
 
 // =======================
 // Initialize
