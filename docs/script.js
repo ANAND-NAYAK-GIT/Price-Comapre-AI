@@ -1,3 +1,4 @@
+
 // =======================
 // Global variables
 // =======================
@@ -10,7 +11,6 @@ let currentCategory = "all";
 // =======================
 async function loadProductsData() {
   try {
-    // NOTE: Fetching from './data.json' based on your code, ensure your JSON file is named 'data.json'
     const response = await fetch("./data.json");
     const data = await response.json();
     productsData = data.products;
@@ -87,6 +87,8 @@ function smartSearch(query) {
         if (distance <= 2 && term.length > 3) score += 3;
       });
     });
+
+    /* if (score > 0) results.push({ ...product, score }); */
 
     // STRICT FILTER: ensure real match (not only typo tolerance)
     const cleanMatch = searchTerms.some(
@@ -171,7 +173,7 @@ function formatPrice(price) {
 }
 
 // =======================
-// Product Card (FIXED: Added 'images/' path prefix)
+// Product Card
 // =======================
 function createProductCard(product) {
   const lowestPrice = Math.min(...product.vendors.map((v) => v.price));
@@ -181,12 +183,6 @@ function createProductCard(product) {
   ).toFixed(1);
 
   let vendorCardsHTML = "";
-  
-  // 🟢 FIX IMPLEMENTATION: Prepend 'images/' to local file paths
-  let imageSource = product.image;
-  if (imageSource && !imageSource.startsWith('http')) {
-    imageSource = 'images/' + imageSource;
-  }
 
   product.vendors.forEach((vendor) => {
     const isBest = vendor.price === lowestPrice;
@@ -223,7 +219,7 @@ function createProductCard(product) {
           </div>
         </div>
 
-        <img src="${imageSource}" alt="${product.name}" class="product-image">
+        <img src="${product.image}" alt="${product.name}" class="product-image">
 
         <div class="vendor-cards">${vendorCardsHTML}</div>
       </div>
@@ -232,21 +228,15 @@ function createProductCard(product) {
 }
 
 // =======================
-// Recommendation Card (FIXED: Added 'images/' path prefix)
+// Recommendation Card
 // =======================
 function createRecommendationCard(product) {
   const lowestPrice = Math.min(...product.vendors.map((v) => v.price));
-  
-  // 🟢 FIX IMPLEMENTATION: Prepend 'images/' to local file paths
-  let imageSource = product.image;
-  if (imageSource && !imageSource.startsWith('http')) {
-    imageSource = 'images/' + imageSource;
-  }
 
   return `
     <div class="col-md-4 col-sm-6">
       <div class="recommendation-card">
-        <img src="${imageSource}" alt="${product.name}">
+        <img src="${product.image}" alt="${product.name}">
         <h6>${product.name}</h6>
         <div class="price">${formatPrice(lowestPrice)}</div>
         <small class="text-muted">${product.category}</small>
@@ -313,7 +303,7 @@ function performSearch(query) {
 }
 
 // =======================
-// CATEGORY MAP
+// CATEGORY MAP (Most Important Fix)
 // =======================
 const CATEGORY_MAP = {
   Smartphones: ["Smartphones", "Mobiles", "Phones"],
