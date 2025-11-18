@@ -288,22 +288,6 @@ body {
   margin-bottom: 10px;
 }
 
-.recommendation-card h6 {
-  font-size: 0.95rem;
-  margin-bottom: 8px;
-  height: 40px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.recommendation-card .price {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--primary-color);
-}
-
 /* Footer */
 .footer {
   margin-top: 50px;
@@ -344,6 +328,38 @@ body {
 .spinner-border {
   width: 3rem;
   height: 3rem;
+}
+
+/* =========================================  
+   🔥 FIXED ICON SIZE SECTION (IMPORTANT)
+   ========================================= */
+
+i.fas, i.far, i.fa {
+  font-size: 14px !important;
+}
+
+.product-meta i {
+  font-size: 14px !important;
+}
+
+.vendor-card i {
+  font-size: 16px !important;
+}
+
+.best-price-badge i {
+  font-size: 14px !important;
+}
+
+.vendor-link i {
+  font-size: 14px !important;
+}
+
+.category-btn i {
+  font-size: 15px !important;
+}
+
+.recommendation-card i {
+  font-size: 14px !important;
 }
 
 /* Responsive Design */
@@ -430,4 +446,43 @@ body {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   color: white;
+}
+
+
+/* ============================
+   FIX: Restore small clean icons
+   ============================ */
+
+/* General icons */
+.product-meta i,
+.vendor-card i,
+.best-price-badge i,
+.recommendation-card i {
+    font-size: 0.9rem !important;
+}
+
+/* Vendor icon beside store name */
+.vendor-name i {
+    font-size: 1rem !important;
+}
+
+/* Rating star */
+.vendor-rating i {
+    font-size: 0.95rem !important;
+}
+
+/* Cart icon inside "View Deal" */
+.vendor-link i {
+    font-size: 0.9rem !important;
+}
+
+/* Category icons (if any) */
+.category-btn i {
+    font-size: 0.85rem !important;
+}
+
+/* Ensure icons never stretch with container */
+i, .fas, .fa {
+    line-height: 1 !important;
+    vertical-align: middle !important;
 }
